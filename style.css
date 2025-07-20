@@ -1,0 +1,244 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("imagem/é\ esse.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    background-image: url("imagem/3d.jpg");
+
+    font-family: "Michroma", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+
+}
+
+.texto-esquerda P {
+    margin: 0;
+    font-size: 18px;
+}
+
+.menu-direita ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 69px;
+    padding: 0;
+}
+.menu-direita a {
+    text-decoration: none;
+    color: #0a65af;
+    font-weight: bold;
+}
+/* caixa de texto dentro do container */
+.container p {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  color: #0484da;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.container h2 {
+    position: absolute;
+  top: 70px;
+  left: 110px;
+  color: #8a060c;
+  text-shadow: rgb(219, 7, 7);
+  border-radius: 3px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+h3 {
+color: #77045a;
+font-size: 25px;
+}
+
+/* caixa de texto dentro do container */
+
+li {
+    background-color: rgba(39, 78, 56, 0.322);
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+
+    
+}
+
+li:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease; 
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+
+
+}
+
+.imagem img {
+    border-radius: 8px; 
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1); 
+    margin: 150px;
+    margin-top: 100px;
+    border: 5px solid;
+    
+
+}
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Michroma", sans-serif;
+    
+}
+.texto {
+  color: #0a65af;
+  padding: 70px;
+  
+
+}
+
+.imagem img:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease; 
+}
+
+main {
+    background-color: #0484da;
+    text-align: center;
+}
+
+button {
+    background-color: #0a2d442a;
+    padding: 10PX;
+    margin-right: 30PX;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+    color: #0484da;
+    
+
+}
+
+ul {
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+    color: #fff;
+}
+
+section img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+    margin: 150px;
+    margin-top: 100px;
+    border: 5px solid;
+    height: 80;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.habilidades-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 15px;
+    background-image: url("imagem/pex.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgb(18, 71, 8);
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+    border: 5px solid;
+    background-color: #0484da;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: #f8f2f2de;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #615d5d;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgb(42, 247, 1);
+}
+ figure:hover {
+    transform: scale(1.02); 
+    transition: transform 0.3s ease; 
+}
+.bloco-estudo {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Alinha o texto e a imagem verticalmente */
+    justify-content: space-around; /* Cria um espaço entre o texto e a imagem */
+    gap: 2rem; /* Define um espaço mínimo entre os itens */
+
+    color: #fff;
+    background-color: #57677260;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgb(85, 85, 85);
+    font-family: "Michroma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 20px;
+    margin: 30px auto; /* Centraliza o bloco e adiciona margem */
+    max-width: 1300px; /* Define uma largura máxima para o conteúdo */
+}
+
+.bloco-estudo__texto {
+    flex: 1; /* Permite que o bloco de texto cresça e ocupe o espaço disponível */
+}
+footer {
+    background-color: #2d6385;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #ffd208;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #112b3b;
+}
